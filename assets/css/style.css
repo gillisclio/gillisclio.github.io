@@ -106,7 +106,7 @@ h5 {
 /* HERO
 -------------------------------------------------- */
 
-/* Scroll to top button
+/* Scroll to top button (Base code taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 -------------------------------------------------- */
 
 #myBtn {
@@ -130,6 +130,8 @@ h5 {
 	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
+/* Hover.css, Underline from left (Base code downloaded from http://ianlunn.github.io/Hover/)
+-------------------------------------------------- */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -213,6 +215,9 @@ h5 {
     width: 100%;
 
 }
+
+/* Hover.css, Bob (Base code downloaded from http://ianlunn.github.io/Hover/)
+-------------------------------------------------- */
 
 /* Bob */
 @-webkit-keyframes hvr-bob {
@@ -347,7 +352,8 @@ h5 {
 	background-repeat: no-repeat;
 }
 
-/* Grow */
+/* Hover.css, Grow (Base code downloaded from http://ianlunn.github.io/Hover/)
+-------------------------------------------------- */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -411,7 +417,8 @@ h5 {
 	background-color: var(--agua);
 }
 
-/* Buzz */
+/* Hover.css, Buzz (Base code downloaded from http://ianlunn.github.io/Hover/)
+-------------------------------------------------- */
 @-webkit-keyframes hvr-buzz {
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
@@ -531,7 +538,7 @@ h5 {
 	text-align: center;
 	border-top-left-radius: 70% 30%;
     border-top-right-radius: 70% 30%;
-/*    min-height: 600px;*/
+    min-height: 600px;
 }
 
 .more h3 {
@@ -754,7 +761,7 @@ h5 {
 /* FIN
 -------------------------------------------------- */
 
-/* Fin:;  block: background, formatting elements within it;
+/* Fin block: background, formatting elements within it;
 -------------------------------------------------- */
 
 .fin {
@@ -765,7 +772,7 @@ h5 {
 	text-align: center;
 	border-top-left-radius: 70% 30%;
     border-top-right-radius: 70% 30%;
-    min-height: 800px;
+    min-height: 700px;
 
 }
 
@@ -788,6 +795,7 @@ h5 {
 
 	.hero {
 		text-align: center;
+		min-height: 400px;
 	}
 
 	.hero h1 {
@@ -796,7 +804,6 @@ h5 {
 	}
 
 	.hero h2 {
-		font-size: : 0.8em;
 		margin: 50px 10px;
 	}
 
@@ -812,9 +819,13 @@ h5 {
 		width: 80%;
 	}
 
-	.ray, .ray-low {
+	.ray {
 		width: 80%;
-		padding-top: -50px;
+	}
+
+	.ray-low {
+		width: 80%;
+		top: 50px;
 	}
 
 	#comb {
@@ -874,7 +885,7 @@ h5 {
 
 	.fin h3 {
     	margin-top: 100px;
-}
+	}
 }
 
 
