@@ -8,7 +8,7 @@ body {
 }
 
 .element {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 :root {
@@ -26,6 +26,7 @@ p {
 	text-align: center;
 	margin-top: 30px;
     margin-bottom: 30px;
+    font-size: 1.2em;
 }
 
 h1, h2, h3, h5 {
@@ -163,7 +164,7 @@ h5 {
 
 .hero {
 	width: 100%;
-	min-height: 800px;
+	min-height: 600px;
 	background-image: url('../images/hero.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,7 +194,7 @@ h5 {
 	letter-spacing: 0.4em;
 	color: var(--butter);
 	position: absolute;
-	bottom: -330px;
+	bottom: -200px;
 	width: 100%;
 }
 
@@ -222,7 +223,7 @@ h5 {
 
 #comb {
 	position: absolute;
-	top: -325px;
+	top: -200px;
     opacity: .6;
     left: 20px;
     width: 100%;
@@ -795,8 +796,6 @@ h5 {
 		line-height: 2em;
 	}
 
-	p {}
-
 	.hero {
 		text-align: center;
 	}
@@ -812,24 +811,28 @@ h5 {
 	}
 
 	#explore-text {
-		bottom: -280px;
+		bottom: -220px;
 	}
 
 	#fact-img {
 		width: 100%;
 	}
 
+	.btw {
+		min-height: 800px;
+	}
+
 	.btw img {
-		width: 100%;
+		width: 80%;
 	}
 
 	.ray, .ray-low {
-		width: 90%;
-		padding-top: -20px;
+		width: 80%;
+		padding-top: -50px;
 	}
 
 	#comb {
-	    top: -80px;
+	    top: -100px;
 	    opacity: 1;
 	    left: -10px;
 	    width: 120%;
@@ -837,10 +840,15 @@ h5 {
 
 	#flowers {
 		position: absolute;
-    	top: 20px;
+    	top: -10px;
     	opacity: 1;
     	left: 20px;
     	width: 100%;
+	}
+
+	.risk h3 {
+		color: var(--butter);
+		padding-top: 80px;
 	}
 }
 
