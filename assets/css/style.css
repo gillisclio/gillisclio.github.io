@@ -183,22 +183,6 @@ h5 {
 	margin-left: 50px;
 }
 
-/* Scroll to explore element;
--------------------------------------------------- */
-
-#explore-text {
-	text-transform: uppercase;
-	text-align: center;
-    font-size: .8em;
-    font-weight: bolder;
-	letter-spacing: 0.4em;
-	color: var(--butter);
-	position: absolute;
-	bottom: -200px;
-	width: 100%;
-}
-
-
 /* ABOUT
 -------------------------------------------------- */
 
@@ -600,7 +584,7 @@ h5 {
 
 .risk h3 {
 	color: var(--butter);
-	padding-top: 45px;
+	padding-top: 80px;
 }
 
 /* THREATS
@@ -758,7 +742,7 @@ h5 {
 
 #flowers {
     position: absolute;
-    top: -200px;
+    top: -100px;
     opacity: .6;
     left: 20px;
     width: 100%;
@@ -810,16 +794,12 @@ h5 {
 		margin: 50px 10px;
 	}
 
-	#explore-text {
-		bottom: -220px;
-	}
-
 	#fact-img {
 		width: 100%;
 	}
 
 	.btw {
-		min-height: 800px;
+		min-height: 500px;
 	}
 
 	.btw img {
