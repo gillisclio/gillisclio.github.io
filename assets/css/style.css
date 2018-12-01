@@ -703,7 +703,7 @@ h5 {
 }
 
 .ray-low {
-		opacity: 0;
+	opacity: 0;
 	z-index: 0;
 	position: relative;
 }
@@ -846,6 +846,36 @@ h5 {
 	}
 }
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+	.hero h1{
+		margin-top: 80px;
+	}
+
+	#comb {
+		top: -70px;
+	    opacity: 1;
+	    left: -10px;
+	    width: 120%;
+	}
+
+	.almonds h3 {
+    	padding-top: 100px;
+	}
+
+	.risk h3 {
+    	padding-top: 100px;
+	}
+
+	.fin {
+		min-height: 400px;
+	}
+
+	.fin h3 {
+    	margin-top: 100px;
+}
+}
 
 
 
