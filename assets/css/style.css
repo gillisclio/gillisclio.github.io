@@ -572,6 +572,7 @@ h5 {
 .almonds h3 {
 	color:var(--earth);
 	text-shadow: 0.05em 0.05em rgba(0, 0, 0, .05);
+	padding-top: 100px;
 
 }
 
@@ -592,7 +593,7 @@ h5 {
 
 .risk h3 {
 	color: var(--butter);
-	padding-top: 80px;
+	padding-top: 100px;
 }
 
 /* THREATS
@@ -866,7 +867,6 @@ h5 {
 
 	#comb {
 		top: -70px;
-	    opacity: 1;
 	    left: -10px;
 	    width: 120%;
 	}
